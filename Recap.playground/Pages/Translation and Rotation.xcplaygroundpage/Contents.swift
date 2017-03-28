@@ -38,7 +38,7 @@ canvas.defaultLineWidth = 4
 canvas.drawLine(fromX: 0, fromY: -400, toX: 0, toY: 400)
 canvas.drawText(message: "y", size: 24, x: 10, y: 375)
 
-// Draw the horizontal axis and label it
+// Draw the horizontal axis and label it 
 canvas.drawLine(fromX: -400, fromY: 0, toX: 400, toY: 0)
 canvas.drawText(message: "x", size: 24, x: 375, y: 10)
 
