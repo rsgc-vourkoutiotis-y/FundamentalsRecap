@@ -6,83 +6,19 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		81E4B7111E8A8C2E000BA3F2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E4B7101E8A8C2E000BA3F2 /* main.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		81E4B70B1E8A8C2E000BA3F2 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		81E4B70D1E8A8C2E000BA3F2 /* FundamentalsRecap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FundamentalsRecap; sourceTree = BUILT_PRODUCTS_DIR; };
-		81E4B7101E8A8C2E000BA3F2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		81E4B7171E8A8C89000BA3F2 /* Recap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Recap.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		81E4B70A1E8A8C2E000BA3F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		81E4B7041E8A8C2E000BA3F2 = {
 			isa = PBXGroup;
 			children = (
-				81E4B70F1E8A8C2E000BA3F2 /* FundamentalsRecap */,
-				81E4B70E1E8A8C2E000BA3F2 /* Products */,
+				81E4B7171E8A8C89000BA3F2 /* Recap.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		81E4B70E1E8A8C2E000BA3F2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				81E4B70D1E8A8C2E000BA3F2 /* FundamentalsRecap */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		81E4B70F1E8A8C2E000BA3F2 /* FundamentalsRecap */ = {
-			isa = PBXGroup;
-			children = (
-				81E4B7101E8A8C2E000BA3F2 /* main.swift */,
-			);
-			path = FundamentalsRecap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		81E4B70C1E8A8C2E000BA3F2 /* FundamentalsRecap */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 81E4B7141E8A8C2E000BA3F2 /* Build configuration list for PBXNativeTarget "FundamentalsRecap" */;
-			buildPhases = (
-				81E4B7091E8A8C2E000BA3F2 /* Sources */,
-				81E4B70A1E8A8C2E000BA3F2 /* Frameworks */,
-				81E4B70B1E8A8C2E000BA3F2 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FundamentalsRecap;
-			productName = FundamentalsRecap;
-			productReference = 81E4B70D1E8A8C2E000BA3F2 /* FundamentalsRecap */;
-			productType = "com.apple.product-type.tool";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		81E4B7051E8A8C2E000BA3F2 /* Project object */ = {
@@ -91,13 +27,6 @@
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Russell Gordon";
-				TargetAttributes = {
-					81E4B70C1E8A8C2E000BA3F2 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = U2ZN2W2UQJ;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 81E4B7081E8A8C2E000BA3F2 /* Build configuration list for PBXProject "FundamentalsRecap" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -107,25 +36,13 @@
 				en,
 			);
 			mainGroup = 81E4B7041E8A8C2E000BA3F2;
-			productRefGroup = 81E4B70E1E8A8C2E000BA3F2 /* Products */;
+			productRefGroup = 81E4B7041E8A8C2E000BA3F2;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81E4B70C1E8A8C2E000BA3F2 /* FundamentalsRecap */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		81E4B7091E8A8C2E000BA3F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81E4B7111E8A8C2E000BA3F2 /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		81E4B7121E8A8C2E000BA3F2 /* Debug */ = {
@@ -216,24 +133,6 @@
 			};
 			name = Release;
 		};
-		81E4B7151E8A8C2E000BA3F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		81E4B7161E8A8C2E000BA3F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -245,14 +144,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		81E4B7141E8A8C2E000BA3F2 /* Build configuration list for PBXNativeTarget "FundamentalsRecap" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				81E4B7151E8A8C2E000BA3F2 /* Debug */,
-				81E4B7161E8A8C2E000BA3F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
