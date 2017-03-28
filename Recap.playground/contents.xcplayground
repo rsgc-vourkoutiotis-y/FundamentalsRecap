@@ -3,5 +3,6 @@
     <pages>
         <page name='Introduction'/>
         <page name='Sequence'/>
+        <page name='Translation and Rotation'/>
     </pages>
 </playground>
