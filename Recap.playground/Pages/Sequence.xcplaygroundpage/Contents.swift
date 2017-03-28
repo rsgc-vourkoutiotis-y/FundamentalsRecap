@@ -27,7 +27,66 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 500, height: 400)
 
-// Replace this comment and add your code below 
+
+// Make a Triangle
+
+var points : [NSPoint] = [] // Create empty list (array) of type NSPoint
+
+points.append(NSPoint(x: 400, y: 100) )
+points.append(NSPoint(x: 300, y: 350) )
+points.append(NSPoint(x: 490, y: 350) )
+
+canvas.drawShapesWithBorders = false
+
+canvas.drawShapesWithFill = true
+
+canvas.defaultBorderWidth = 5
+
+canvas.fillColor = Color(hue: 80, saturation: 80, brightness: 75, alpha: 100)
+
+canvas.drawCustomShape(with: points)
+
+// Make The Ellipse
+
+canvas.fillColor = Color(hue: 0, saturation: 80, brightness: 80, alpha: 100)
+
+canvas.drawEllipse(centreX: 125, centreY: 150, width: 175, height: 175)
+
+// Make the Rounded Rectangle
+
+canvas.fillColor = Color(hue: 30, saturation: 80, brightness: 90, alpha: 90)
+
+canvas.drawRoundedRectangle(centreX: 300, centreY: 250, width: 115, height: 135)
+
+
+// Make the Pillar
+
+canvas.fillColor = Color(hue: 220, saturation: 80, brightness: 90, alpha: 90)
+
+canvas.drawRectangle(centreX: 230, centreY: 200, width: 100, height: 400)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*:
