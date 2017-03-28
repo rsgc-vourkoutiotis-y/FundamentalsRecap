@@ -21,7 +21,7 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 400, height: 400)
 
-// Add your code below
+// Replace this comment and add your code below
 
 /*:
  ## Template code

@@ -5,5 +5,6 @@
         <page name='Sequence'/>
         <page name='Translation and Rotation'/>
         <page name='Iteration and Conditionals'/>
+        <page name='Challenge'/>
     </pages>
 </playground>
