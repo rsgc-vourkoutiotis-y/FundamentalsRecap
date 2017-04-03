@@ -27,77 +27,97 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 400, height: 400)
 
-// Start to make the Pillar
+//// Start to make the Pillar
+//
+//canvas.drawShapesWithBorders = false
+//
+//canvas.drawShapesWithFill = true
+//
+//canvas.defaultBorderWidth = 5
+//
+//canvas.fillColor = Color(hue: 26, saturation: 69, brightness: 37, alpha: 100)
+//
+//for x in stride(from: 0, through: 100, by: 5) {
+//    canvas.drawEllipse(centreX: 50, centreY: 350-x, width: 60, height: 60)
+//}
+//
+//// Make the Orange Pillar
+//
+//canvas.drawShapesWithBorders = false
+//
+//canvas.drawShapesWithFill = true
+//
+//canvas.defaultBorderWidth = 5
+//
+//canvas.fillColor = Color(hue: 22, saturation: 93, brightness: 90, alpha: 100)
+//
+//for x in stride(from: 0, through: 95, by: 5) {
+//    canvas.drawEllipse(centreX: 50, centreY: 345-x, width: 45, height: 45)
+//}
+//
+//// Make the Yellow Pillar
+//
+//canvas.drawShapesWithBorders = false
+//
+//canvas.drawShapesWithFill = true
+//
+//canvas.defaultBorderWidth = 5
+//
+//canvas.fillColor = Color(hue: 53, saturation: 93, brightness: 98, alpha: 100)
+//
+//for x in stride(from: 0, through: 85, by: 5) {
+//    canvas.drawEllipse(centreX: 50, centreY: 340-x, width: 35, height: 35)
+//}
+//
+//// Make the White Pillar
+//
+//canvas.drawShapesWithBorders = false
+//
+//canvas.drawShapesWithFill = true
+//
+//canvas.defaultBorderWidth = 5
+//
+//canvas.fillColor = Color(hue: 53, saturation: 0, brightness: 98, alpha: 100)
+//
+//for x in stride(from: 0, through: 85, by: 1) {
+//    canvas.drawEllipse(centreX: 50, centreY: 340-x, width: 10, height: 10)
+//}
 
-canvas.drawShapesWithBorders = false
 
-canvas.drawShapesWithFill = true
+// Loop Them All Together
 
-canvas.defaultBorderWidth = 5
-
-canvas.fillColor = Color(hue: 26, saturation: 69, brightness: 37, alpha: 100)
-
-for x in stride(from: 0, through: 100, by: 5) {
-    canvas.drawEllipse(centreX: 50, centreY: 350-x, width: 60, height: 60)
+for y in stride(from: 50, through: 300, by: 75) {
+    
+    canvas.fillColor = Color(hue: 26, saturation: 69, brightness: 37, alpha: 100)
+    
+    for x in stride(from: 0, through: 100, by: 5) {
+        canvas.drawEllipse(centreX: y, centreY: 350-x, width: 60, height: 60)
+    }
+    
+    canvas.fillColor = Color(hue: 22, saturation: 93, brightness: 90, alpha: 100)
+    
+    for x in stride(from: 0, through: 95, by: 5) {
+        canvas.drawEllipse(centreX: y, centreY: 345-x, width: 45, height: 45)
+    }
+    
+    canvas.fillColor = Color(hue: 53, saturation: 93, brightness: 98, alpha: 100)
+    
+    for x in stride(from: 0, through: 85, by: 5) {
+        canvas.drawEllipse(centreX: y, centreY: 340-x, width: 35, height: 35)
+    }
+    
+    canvas.fillColor = Color(hue: 53, saturation: 0, brightness: 98, alpha: 100)
+    
+    for x in stride(from: 0, through: 85, by: 1) {
+        canvas.drawEllipse(centreX: y, centreY: 340-x, width: 10, height: 10)
+    }
+    
+    
+    
+    
+    
+    
 }
-
-// Make the Orange Pillar
-
-canvas.drawShapesWithBorders = false
-
-canvas.drawShapesWithFill = true
-
-canvas.defaultBorderWidth = 5
-
-canvas.fillColor = Color(hue: 22, saturation: 93, brightness: 90, alpha: 100)
-
-for x in stride(from: 0, through: 95, by: 5) {
-    canvas.drawEllipse(centreX: 50, centreY: 345-x, width: 45, height: 45)
-}
-
-// Make the Yellow Pillar
-
-canvas.drawShapesWithBorders = false
-
-canvas.drawShapesWithFill = true
-
-canvas.defaultBorderWidth = 5
-
-canvas.fillColor = Color(hue: 53, saturation: 93, brightness: 98, alpha: 100)
-
-for x in stride(from: 0, through: 85, by: 5) {
-    canvas.drawEllipse(centreX: 50, centreY: 340-x, width: 35, height: 35)
-}
-
-// Make the White Pillar
-
-canvas.drawShapesWithBorders = false
-
-canvas.drawShapesWithFill = true
-
-canvas.defaultBorderWidth = 5
-
-canvas.fillColor = Color(hue: 53, saturation: 0, brightness: 98, alpha: 100)
-
-for x in stride(from: 0, through: 85, by: 1) {
-    canvas.drawEllipse(centreX: 50, centreY: 340-x, width: 10, height: 10)
-}
-
-// Loop All of the Pillars
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
