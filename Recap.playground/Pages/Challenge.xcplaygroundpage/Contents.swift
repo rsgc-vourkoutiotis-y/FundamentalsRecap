@@ -27,97 +27,109 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 400, height: 400)
 
-//// Start to make the Pillar
+//// Make the First Circle
 //
-//canvas.drawShapesWithBorders = false
 //
-//canvas.drawShapesWithFill = true
+//canvas.borderColor = Color(hue: 26, saturation: 69, brightness: 37, alpha: 100)
 //
-//canvas.defaultBorderWidth = 5
+//canvas.drawEllipse(centreX: 50, centreY: 350, width: 50, height: 50)
 //
-//canvas.fillColor = Color(hue: 26, saturation: 69, brightness: 37, alpha: 100)
+//// Make Second Circle
 //
-//for x in stride(from: 0, through: 100, by: 5) {
-//    canvas.drawEllipse(centreX: 50, centreY: 350-x, width: 60, height: 60)
-//}
+//canvas.borderColor = Color(hue: 30, saturation: 100, brightness: 100, alpha: 100)
 //
-//// Make the Orange Pillar
+//canvas.drawEllipse(centreX: 50, centreY: 350, width: 35, height: 35)
 //
-//canvas.drawShapesWithBorders = false
+//// Make Third Circle
 //
-//canvas.drawShapesWithFill = true
+//canvas.borderColor = Color(hue: 60, saturation: 100, brightness: 100, alpha: 100)
 //
-//canvas.defaultBorderWidth = 5
+//canvas.drawEllipse(centreX: 50, centreY: 350, width: 20, height: 20)
+
+// Make Second Set of Circles
+
+//canvas.drawShapesWithBorders = true
 //
-//canvas.fillColor = Color(hue: 22, saturation: 93, brightness: 90, alpha: 100)
+//canvas.drawShapesWithFill = false
 //
-//for x in stride(from: 0, through: 95, by: 5) {
-//    canvas.drawEllipse(centreX: 50, centreY: 345-x, width: 45, height: 45)
-//}
+//canvas.defaultBorderWidth = 9
 //
-//// Make the Yellow Pillar
+//canvas.drawEllipse(centreX: 100, centreY: 250, width: 50, height: 50)
 //
-//canvas.drawShapesWithBorders = false
+//canvas.borderColor = Color(hue: 30, saturation: 100, brightness: 100, alpha: 100)
 //
-//canvas.drawShapesWithFill = true
+//// Second Circle
 //
-//canvas.defaultBorderWidth = 5
+//canvas.drawEllipse(centreX: 100, centreY: 250, width: 35, height: 35)
 //
-//canvas.fillColor = Color(hue: 53, saturation: 93, brightness: 98, alpha: 100)
+//// Make Third Circle
 //
-//for x in stride(from: 0, through: 85, by: 5) {
-//    canvas.drawEllipse(centreX: 50, centreY: 340-x, width: 35, height: 35)
-//}
+//canvas.borderColor = Color(hue: 26, saturation: 69, brightness: 37, alpha: 100)
 //
-//// Make the White Pillar
-//
-//canvas.drawShapesWithBorders = false
-//
-//canvas.drawShapesWithFill = true
-//
-//canvas.defaultBorderWidth = 5
-//
-//canvas.fillColor = Color(hue: 53, saturation: 0, brightness: 98, alpha: 100)
-//
-//for x in stride(from: 0, through: 85, by: 1) {
-//    canvas.drawEllipse(centreX: 50, centreY: 340-x, width: 10, height: 10)
-//}
+//canvas.drawEllipse(centreX: 100, centreY: 250, width: 20, height: 20)
 
 
-// Loop Them All Together
+// Make The First Set of Circles
 
-for y in stride(from: 50, through: 300, by: 75) {
-    
-    canvas.fillColor = Color(hue: 26, saturation: 69, brightness: 37, alpha: 100)
-    
-    for x in stride(from: 0, through: 100, by: 5) {
-        canvas.drawEllipse(centreX: y, centreY: 350-x, width: 60, height: 60)
-    }
-    
-    canvas.fillColor = Color(hue: 22, saturation: 93, brightness: 90, alpha: 100)
-    
-    for x in stride(from: 0, through: 95, by: 5) {
-        canvas.drawEllipse(centreX: y, centreY: 345-x, width: 45, height: 45)
-    }
-    
-    canvas.fillColor = Color(hue: 53, saturation: 93, brightness: 98, alpha: 100)
-    
-    for x in stride(from: 0, through: 85, by: 5) {
-        canvas.drawEllipse(centreX: y, centreY: 340-x, width: 35, height: 35)
-    }
-    
-    canvas.fillColor = Color(hue: 53, saturation: 0, brightness: 98, alpha: 100)
-    
-    for x in stride(from: 0, through: 85, by: 1) {
-        canvas.drawEllipse(centreX: y, centreY: 340-x, width: 10, height: 10)
-    }
+canvas.drawShapesWithBorders = true
+
+canvas.drawShapesWithFill = false
+
+canvas.defaultBorderWidth = 9
+
+
+for x in stride(from: 50, through: 400, by: 100) {
     
     
+    canvas.borderColor = Color(hue: 26, saturation: 69, brightness: 37, alpha: 100)
     
+    canvas.drawEllipse(centreX: x, centreY: 350, width: 50, height: 50)
     
+    // Make Second Circle
     
+    canvas.borderColor = Color(hue: 30, saturation: 100, brightness: 100, alpha: 100)
+    
+    canvas.drawEllipse(centreX: x, centreY: 350, width: 35, height: 35)
+    
+    // Make Third Circle
+    
+    canvas.borderColor = Color(hue: 60, saturation: 100, brightness: 100, alpha: 100)
+    
+    canvas.drawEllipse(centreX: x, centreY: 350, width: 20, height: 20)
     
 }
+
+// Make Second Set of Circles
+
+for x in stride(from: 100, through: 300, by: 100) {
+    
+canvas.borderColor = Color(hue: 60, saturation: 100, brightness: 100, alpha: 100)
+    
+canvas.drawEllipse(centreX: x, centreY: 250, width: 50, height: 50)
+    
+canvas.borderColor = Color(hue: 30, saturation: 100, brightness: 100, alpha: 100)
+    
+    // Second Circle
+    
+    canvas.drawEllipse(centreX: x, centreY: 250, width: 35, height: 35)
+    
+    // Make Third Circle
+    
+    canvas.borderColor = Color(hue: 26, saturation: 69, brightness: 37, alpha: 100)
+    
+    canvas.drawEllipse(centreX: x, centreY: 250, width: 20, height: 20)
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
